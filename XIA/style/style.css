@@ -1,0 +1,71 @@
+.boto1,
+.boto2,
+.boto3 {
+    margin: 15px;
+    border: 5px;
+    background-color: burlywood;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.aposta {
+    text-align: center;
+}
+
+input {
+    border-radius: 20px;
+    max-width: 50px;
+    background-color:cornsilk;
+    margin: 4px;
+}
+
+li{
+    list-style: none;
+    display: grid;
+    grid-template-columns: max-content;
+}
+
+.puntuacio {
+    list-style: none;
+    text-align: center;
+    background-color: darkgray;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 5px;
+    display: inline-block;
+  
+
+}
+
+body {
+    text-align: center;
+    background-image: url(../img/futbol1.png);
+    background-size: cover;
+    margin: auto;
+    margin-top: 650px;
+}
+
+button:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.boto4{
+    margin: 10px;
+    border: 5px;
+    background-color: rgb(122, 185, 122);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.escriu{
+    display: flex;
+    max-width: 1000px;
+    margin-left: 890px;
+    margin-right: auto;
+}
