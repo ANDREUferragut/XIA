@@ -1,33 +1,18 @@
-.boto1,
-.boto2,
-.boto3 {
-    margin: 15px;
-    border: 5px;
-    background-color: burlywood;
-    padding: 25px;
-    border-radius: 5px;
-    font-size: 17px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.aposta {
-    text-align: center;
-}
-
 input {
     border-radius: 20px;
     max-width: 50px;
-    background-color:cornsilk;
+    background-color: cornsilk;
     margin: 4px;
 }
 
-li{
+li {
     list-style: none;
     display: grid;
     grid-template-columns: max-content;
 }
 
 .puntuacio {
+    margin-top: 50px;
     list-style: none;
     text-align: center;
     background-color: darkgray;
@@ -36,8 +21,6 @@ li{
     border-radius: 5px;
     border: 5px;
     display: inline-block;
-  
-
 }
 
 body {
@@ -45,27 +28,60 @@ body {
     background-image: url(../img/futbol1.png);
     background-size: cover;
     margin: auto;
-    margin-top: 650px;
 }
 
 button:hover {
-    background-color: darkgray;
+    background-color: chocolate;
     cursor: pointer;
 }
 
-.boto4{
-    margin: 10px;
+.boto4 {
+    margin-left: 880px;
+    margin-top: 10px;
     border: 5px;
     background-color: rgb(122, 185, 122);
     padding: 20px;
     border-radius: 5px;
     font-size: 10px;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+
 }
 
-.escriu{
+.escriu {
+    margin-top: 10 0px;
     display: flex;
     max-width: 1000px;
-    margin-left: 890px;
+    margin-left: 910px;
     margin-right: auto;
+}
+
+.titol {
+    margin-top: 2px;
+    margin-left: 550px;
+    text-align: center;
+    font-size: 2em;
+    background-color: antiquewhite;
+    border: 5px;
+    border-radius: 5px;
+    max-width: 800px;
+}
+
+img {
+    padding: 100px;
+}
+
+.fotos {
+    width: 200px;
+    height: 200px;
+}
+
+.introduccio {
+    margin-left: 760px;
+    border-radius: 6px;
+    background-color: burlywood;
+    max-width: 370px;
+    margin-top: 10px;
+    font-style:initial;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
